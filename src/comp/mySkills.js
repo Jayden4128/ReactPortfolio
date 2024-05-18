@@ -7,6 +7,7 @@ import Image4 from "../comp/imgs/skill4.png";
 import Image5 from "../comp/imgs/skill5.png";
 export const SkillSet = () => {
   return (
+    // Each card for each language I use
     <div className="allCard">
       <h1 className="titleBox" id="skillsTitleBox"> <span> Skills </span></h1>
     <div className="skillBoxes">

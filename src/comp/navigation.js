@@ -8,6 +8,7 @@ import {useState, useEffect} from "react";
 import navIcon2 from '../comp/imgs/pencil.png';
 import navIcon3 from '../comp/imgs/coding.png';
 export const NavBar = () => {
+  // Scroll effect for navbar
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
 
@@ -60,10 +61,11 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-                {/* <a href=""> <img src={navIcon1} alt ="" /></a> */}
+              {/* Buttons for emailing and github profile */}
                 <a href="mailto:jaydenmgarcia@gmail.com"> <img src={navIcon2} alt ="" /></a>
                 <a href="https://github.com/Jayden4128"> <img src={navIcon3} alt ="" /></a>
             </div>
+            {/* Connect to Linkedin button */}
            <button className="vvd" onClick ={() => {window.location = "https://www.linkedin.com/in/jayden-garcia-44275b30a/"}}><span href="">Connect With Me</span></button>
           </span>
         </Navbar.Collapse>

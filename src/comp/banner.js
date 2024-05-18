@@ -14,7 +14,6 @@ export const Banner = () => {
                         <br></br>
                         <h1 className="wrap"> <span>Hello </span>, I am Jayden Garcia</h1>
                         <br></br>
-                        {/* <h1>{'Hello'} <span className="wrap">I am a Web Developer</span></h1> */}
                         <p className="about"> About Myself:
                         <br></br>
                         I am a Computer Science major at California State University, Fullerton. I am currently in my junior year about to go into my senior year.

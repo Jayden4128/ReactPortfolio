@@ -8,6 +8,7 @@ import Image4 from "../comp/imgs/pject4.PNG";
 export const MyProjects = () => {
   return (
     <div>
+      {/* Project 1 */}
         <h1 className="projectTitle" id="projectTitleBox"> <span>  Projects  </span></h1>
         <h2 href = "" className="pjectTitle"> Visual Sorter 
         <br></br>
@@ -15,18 +16,21 @@ export const MyProjects = () => {
         </h2>
         <p className="description"> Used a pixel game library to visualize the insertion sort algorithm. </p>
         <img src={Image4} className="pjectImage"/>
+         {/* Project 2 */}
         <h2 className="pjectTitle"> Matter JS
         <br></br>
         <a className= "linkStuff" href="https://github.com/Jayden4128/Java-Script-Matter-JS"> Link to project </a>
         </h2>
         <p className="description"> Made many different visual projects using the library MatterJS </p>
         <img src={Image2} className="pjectImage"/>
+        {/* Project 3 */}
         <h2 className="pjectTitle"> Hangman 
         <br></br>
         <a className= "linkStuff" href="https://github.com/Jayden4128/Hangman"> Link to project </a>
         </h2>
         <p className="description"> Created a terminal version of Hangman that looks through a dictionary and picks a word.</p>
         <img src={Image3} className="pjectImage"/>
+         {/* Project 4 */}
         <h2 className="pjectTitle"> Quiz App 
         <br></br>
         <a className= "linkStuff" href="https://github.com/Lillianh3195/CSPC-349-Quiz-App"> Link to project </a>
