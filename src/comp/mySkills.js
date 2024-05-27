@@ -1,6 +1,6 @@
 import React from "react";
 import "../comp/skillSet.css";
-import Image1 from "../comp/imgs/image1.webp";
+import Image1 from "../comp/imgs/skill1.webp";
 import Image2 from "../comp/imgs/skill2.png";
 import Image3 from "../comp/imgs/skill3.png";
 import Image4 from "../comp/imgs/skill4.png";
@@ -13,7 +13,7 @@ export const SkillSet = () => {
     <div className="skillBoxes">
      <img src={Image1} className="skillImage"/>
       <h2 className="cardTitle">HTML 80%</h2>
-      <p className="cardText">Format text, add graphics, create links, input forms, frames and tables, etc.</p>
+      <p className="cardText">Able to format text, add graphics, create links, input forms, frames and tables, etc using the HTML elements to their fullest.</p>
       
       
 
@@ -21,7 +21,7 @@ export const SkillSet = () => {
     <div className="skillBoxes">
       <img src={Image2}className="skillImage" />
       <h2 className="cardTitle">JS 85%</h2>
-      <p className="cardText">Dynamically update content, control multimedia, animate images.</p>
+      <p className="cardText">Use skills to dynamically update content, control multimedia, animate images while using javascript essentials.</p>
     </div>
 
     <div className="skillBoxes">
